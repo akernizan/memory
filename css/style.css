@@ -2,21 +2,28 @@
 #yellow,
 #green,
 #blue{
-
+	width: 200px;
+	height: 200px;
+	border: 2px solid #222;
+	float: left;
 }
 
 #red{
-	
+	background: rgba(255,0,0,1);
 }
 
 #yellow{
-	
+	background: rgba(255,255,0,1);
 }
 
 #green{
-	
+	background: rgba(0,128,0,1);
 }
 
 #blue{
-	
+	background: rgba(0,0,255,1);
+}
+
+.clearfix{
+	clear: both;
 }
